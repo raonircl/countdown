@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("/countdown/img/5a78f4c-shows_internacionais.webp");
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #00000060;  
+}
+.title{
+    font-size: calc(10px + 3vw);
+
+}
+.title p{
+    font-size: calc(10px + 1vw);
+}
+.countdown{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.countdown h1{
+    font-size: calc(10px + 6vw);
+    text-shadow: 0 0 10px whitesmoke;
+}
+.button{
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: solid 2px whitesmoke ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
