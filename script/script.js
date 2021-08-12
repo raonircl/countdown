@@ -33,4 +33,9 @@ const contagemRegressiva = (tempo) => {
     const id = setInterval(contar,1000);
 }
 
-contagemRegressiva(100000);
+const tempoRestante = () =>{
+    const dataEvento = new Date ("2021-10-09 00:00:00");
+    const hoje = Date.now();
+    return (dataEvento - hoje)
+}
+contagemRegressiva(tempoRestante());
